@@ -3,6 +3,9 @@ loaderVersion="${loader_version_range}"
 license="${mod_license}"
 issueTrackerURL="https://github.com/pwazta/Ecliptic-Seasons-Pams-Harvestcraft-2-Compat/issues"
 
+[[mixins]]
+config="eclipticseasonspamhc2compat.mixins.json"
+
 [[mods]]
 modId="${mod_id}"
 version="${mod_version}"

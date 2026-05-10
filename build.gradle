@@ -40,10 +40,10 @@ minecraft {
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
 
-            // Mixin support — load config via args (not [[mixins]] in mods.toml) to avoid JPMS split-package
+            // Mixin config is registered via mods.toml [[mixins]] block (loads in dev) and via the
+            // MixinConfigs jar manifest entry below (loads in production).
             property 'mixin.env.remapRefMap', 'true'
             property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
-            args '-mixin.config=eclipticseasonspamhc2compat.mixins.json'
 
             mods {
                 "${mod_id}" {
