@@ -13,7 +13,7 @@ displayName="${mod_name}"
 authors="${mod_authors}"
 logoFile="icon.png"
 updateJSONURL="https://raw.githubusercontent.com/pwazta/Ecliptic-Seasons-Pams-Harvestcraft-2-Compat/main/update.json"
-displayURL="https://github.com/pwazta/Ecliptic-Seasons-Pams-Harvestcraft-2-Compat"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/ecliptic-seasons-pams-harvestcraft-2-compat"
 description='''Pam's Harvestcraft 2 crops, saplings, and fruit blocks compat with Ecliptic Seasons.'''
 
 [[dependencies.eclipticseasonspamhc2compat]]
