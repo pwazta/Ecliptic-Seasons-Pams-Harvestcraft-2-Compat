@@ -1,0 +1,15 @@
+{
+  "values": [
+    "pamhc2crops:pamaloecrop",
+    "pamhc2crops:pamjuniperberrycrop",
+    "pamhc2crops:pammilletcrop",
+    "pamhc2crops:pamquinoacrop",
+    "pamhc2crops:pamsesameseedscrop",
+    "pamhc2crops:pamsisalcrop",
+    "pamhc2crops:pamwolfberrycrop",
+    "pamhc2trees:date_sapling",
+    "pamhc2trees:pistachio_sapling",
+    "pamhc2trees:pamdate",
+    "pamhc2trees:pampistachio"
+  ]
+}
