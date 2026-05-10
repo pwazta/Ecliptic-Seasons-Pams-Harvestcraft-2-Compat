@@ -19,7 +19,9 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 @Mixin(BlockPamFruit.class)
 public class MixinBlockPamFruit {
 
-    @Inject(method = "m_213898_", at = @At("HEAD"), cancellable = true, require = 0)
+    @Inject(
+            method = "randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V",
+            at = @At("HEAD"), cancellable = true, require = 0)
     private void eclipticseasonspamhc2compat$gateGrowthBySeason(
             BlockState state, ServerLevel level, BlockPos pos, RandomSource rng, CallbackInfo ci) {
         if (!Config.FRUIT_MIXIN_ENABLED.get()) return;

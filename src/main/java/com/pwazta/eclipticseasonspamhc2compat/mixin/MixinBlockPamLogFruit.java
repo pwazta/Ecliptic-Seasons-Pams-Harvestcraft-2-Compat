@@ -14,12 +14,14 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-// BlockPamLogFruit drives growth from scheduled tick (m_213897_), not randomTick.
+// BlockPamLogFruit drives growth from tick(), not randomTick.
 // Hook that path so the seasons handler can veto growth.
 @Mixin(BlockPamLogFruit.class)
 public class MixinBlockPamLogFruit {
 
-    @Inject(method = "m_213897_", at = @At("HEAD"), cancellable = true, require = 0)
+    @Inject(
+            method = "tick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V",
+            at = @At("HEAD"), cancellable = true, require = 0)
     private void eclipticseasonspamhc2compat$gateGrowthBySeason(
             BlockState state, ServerLevel level, BlockPos pos, RandomSource rng, CallbackInfo ci) {
         if (!Config.FRUIT_MIXIN_ENABLED.get()) return;
