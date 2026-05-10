@@ -1,0 +1,39 @@
+# gradle
+.gradle/
+build/
+out/
+classes/
+run/
+run-data/
+src/generated/
+
+# eclipse
+*.launch
+
+# idea
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# vscode
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# macos
+*.DS_Store
+
+# fabric
+remappedSrc/
+
+# logs
+logs/
+
+# mcmodsrepo (local maven publish)
+mcmodsrepo/
+
+# personal staging notes (LICENSE/README drafts, design docs)
+/docs/

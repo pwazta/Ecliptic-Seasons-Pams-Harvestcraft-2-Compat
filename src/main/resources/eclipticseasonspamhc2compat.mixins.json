@@ -1,0 +1,13 @@
+{
+    "required": false,
+    "package": "com.pwazta.eclipticseasonspamhc2compat.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "refmap": "mixin.refmap.json",
+    "minVersion": "0.8",
+    "mixins": [
+        "MixinBlockPamFruit",
+        "MixinBlockPamLogFruit"
+    ],
+    "client": [],
+    "server": []
+}
