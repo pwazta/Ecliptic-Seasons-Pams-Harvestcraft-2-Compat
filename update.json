@@ -1,10 +1,10 @@
 {
   "homepage": "https://www.curseforge.com/minecraft/mc-mods/ecliptic-seasons-pams-harvestcraft-2-compat",
   "1.20.1": {
-    "0.1.0": "Initial release. Season-locks Pam's HC2 crops, saplings, and fruit blocks under Ecliptic Seasons. Hand-classified humidity for all 197 blocks."
+    "1.0.0": "Initial release. Season-locks Pam's HC2 crops, saplings, and fruit blocks under Ecliptic Seasons. Hand-classified humidity for all 197 blocks."
   },
   "promos": {
-    "1.20.1-recommended": "0.1.0",
-    "1.20.1-latest": "0.1.0"
+    "1.20.1-recommended": "1.0.0",
+    "1.20.1-latest": "1.0.0"
   }
 }
