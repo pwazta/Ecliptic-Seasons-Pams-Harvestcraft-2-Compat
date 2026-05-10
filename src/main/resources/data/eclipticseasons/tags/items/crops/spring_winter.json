@@ -1,6 +1,8 @@
 {
   "values": [
     "pamhc2trees:lemon_sapling",
-    "pamhc2trees:orange_sapling"
+    "pamhc2trees:orange_sapling",
+    "pamhc2trees:pamlemon",
+    "pamhc2trees:pamorange"
   ]
 }

@@ -23,6 +23,9 @@
     "pamhc2crops:pamzucchinicrop",
     "pamhc2trees:breadfruit_sapling",
     "pamhc2trees:grapefruit_sapling",
-    "pamhc2trees:guava_sapling"
+    "pamhc2trees:guava_sapling",
+    "pamhc2trees:pambreadfruit",
+    "pamhc2trees:pamgrapefruit",
+    "pamhc2trees:pamguava"
   ]
 }

@@ -17,6 +17,13 @@
     "pamhc2trees:fig_sapling",
     "pamhc2trees:jackfruit_sapling",
     "pamhc2trees:rambutan_sapling",
-    "pamhc2trees:walnut_sapling"
+    "pamhc2trees:walnut_sapling",
+    "pamhc2trees:pamalmond",
+    "pamhc2trees:pamcandlenut",
+    "pamhc2trees:pamchestnut",
+    "pamhc2trees:pamfig",
+    "pamhc2trees:pamjackfruit",
+    "pamhc2trees:pamrambutan",
+    "pamhc2trees:pamwalnut"
   ]
 }

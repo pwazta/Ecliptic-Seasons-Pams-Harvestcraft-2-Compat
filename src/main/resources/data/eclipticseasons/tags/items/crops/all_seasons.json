@@ -6,6 +6,13 @@
     "pamhc2trees:maple_sapling",
     "pamhc2trees:papaya_sapling",
     "pamhc2trees:paperbark_sapling",
-    "pamhc2trees:spiderweb_sapling"
+    "pamhc2trees:spiderweb_sapling",
+    "pamhc2trees:pambanana",
+    "pamhc2trees:pamcinnamon",
+    "pamhc2trees:pamcoconut",
+    "pamhc2trees:pammaple",
+    "pamhc2trees:pampapaya",
+    "pamhc2trees:pampaperbark",
+    "pamhc2trees:pamspiderweb"
   ]
 }

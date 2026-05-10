@@ -2,6 +2,9 @@
   "values": [
     "pamhc2trees:date_sapling",
     "pamhc2trees:persimmon_sapling",
-    "pamhc2trees:pomegranate_sapling"
+    "pamhc2trees:pomegranate_sapling",
+    "pamhc2trees:pamdate",
+    "pamhc2trees:pampersimmon",
+    "pamhc2trees:pampomegranate"
   ]
 }

@@ -19,6 +19,12 @@
     "pamhc2trees:pecan_sapling",
     "pamhc2trees:pinenut_sapling",
     "pamhc2trees:soursop_sapling",
-    "pamhc2trees:starfruit_sapling"
+    "pamhc2trees:starfruit_sapling",
+    "pamhc2trees:pamhazelnut",
+    "pamhc2trees:pamolive",
+    "pamhc2trees:pampecan",
+    "pamhc2trees:pampinenut",
+    "pamhc2trees:pamsoursop",
+    "pamhc2trees:pamstarfruit"
   ]
 }

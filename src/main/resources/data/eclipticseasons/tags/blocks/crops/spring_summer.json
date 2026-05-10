@@ -9,6 +9,7 @@
     "pamhc2crops:pampapyruscrop",
     "pamhc2crops:pamtrufflecrop",
     "pamhc2crops:pamyuccacrop",
-    "pamhc2trees:tamarind_sapling"
+    "pamhc2trees:tamarind_sapling",
+    "pamhc2trees:pamtamarind"
   ]
 }

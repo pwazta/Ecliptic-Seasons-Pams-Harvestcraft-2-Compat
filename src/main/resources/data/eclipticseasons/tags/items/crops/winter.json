@@ -1,6 +1,8 @@
 {
   "values": [
     "pamhc2trees:cashew_sapling",
-    "pamhc2trees:vanillabean_sapling"
+    "pamhc2trees:vanillabean_sapling",
+    "pamhc2trees:pamcashew",
+    "pamhc2trees:pamvanillabean"
   ]
 }

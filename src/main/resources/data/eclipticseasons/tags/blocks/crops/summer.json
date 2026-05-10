@@ -49,6 +49,25 @@
     "pamhc2trees:pear_sapling",
     "pamhc2trees:peppercorn_sapling",
     "pamhc2trees:pistachio_sapling",
-    "pamhc2trees:plum_sapling"
+    "pamhc2trees:plum_sapling",
+    "pamhc2trees:pamacorn",
+    "pamhc2trees:pamapple",
+    "pamhc2trees:pamapricot",
+    "pamhc2trees:pamavocado",
+    "pamhc2trees:pamcherry",
+    "pamhc2trees:pamdragonfruit",
+    "pamhc2trees:pamdurian",
+    "pamhc2trees:pamgooseberry",
+    "pamhc2trees:pamlime",
+    "pamhc2trees:pamlychee",
+    "pamhc2trees:pammango",
+    "pamhc2trees:pamnutmeg",
+    "pamhc2trees:pampassionfruit",
+    "pamhc2trees:pampawpaw",
+    "pamhc2trees:pampeach",
+    "pamhc2trees:pampear",
+    "pamhc2trees:pampeppercorn",
+    "pamhc2trees:pampistachio",
+    "pamhc2trees:pamplum"
   ]
 }
