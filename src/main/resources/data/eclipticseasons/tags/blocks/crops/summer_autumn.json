@@ -1,0 +1,22 @@
+{
+  "values": [
+    "pamhc2crops:pamalfalfacrop",
+    "pamhc2crops:pamamaranthcrop",
+    "pamhc2crops:pambokchoycrop",
+    "pamhc2crops:pamcloudberrycrop",
+    "pamhc2crops:pamcorncrop",
+    "pamhc2crops:pamgingercrop",
+    "pamhc2crops:pamgrapecrop",
+    "pamhc2crops:pamgreengrapecrop",
+    "pamhc2crops:pamlotuscrop",
+    "pamhc2crops:pamnopalescrop",
+    "pamhc2crops:pamtomatillocrop",
+    "pamhc2trees:almond_sapling",
+    "pamhc2trees:candlenut_sapling",
+    "pamhc2trees:chestnut_sapling",
+    "pamhc2trees:fig_sapling",
+    "pamhc2trees:jackfruit_sapling",
+    "pamhc2trees:rambutan_sapling",
+    "pamhc2trees:walnut_sapling"
+  ]
+}
