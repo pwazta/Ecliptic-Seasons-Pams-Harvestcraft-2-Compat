@@ -14,9 +14,8 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-// Gates BlockPamLogFruit growth by season. Note that BlockPamLogFruit (verified via javap) overrides
-// m_213897_ which is BlockBehaviour#tick (scheduled tick), NOT m_213898_ (randomTick). This is unusual
-// but it's what Pam's actually does in the 1.20 jar. Whichever method drives growth, that's what we hook.
+// BlockPamLogFruit drives growth from scheduled tick (m_213897_), not randomTick.
+// Hook that path so the seasons handler can veto growth.
 @Mixin(BlockPamLogFruit.class)
 public class MixinBlockPamLogFruit {
 

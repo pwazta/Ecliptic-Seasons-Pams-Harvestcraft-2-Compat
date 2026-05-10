@@ -14,9 +14,8 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-// Gates BlockPamFruit#randomTick by season. BlockPamFruit doesn't extend CropBlock and doesn't fire
-// any growth event natively, so Ecliptic Seasons' CropGrowEvent.Pre listener never sees these blocks.
-// We re-fire it ourselves; ES's existing handler then runs the full season/humidity/greenhouse check.
+// BlockPamFruit doesn't extend CropBlock and never fires CropGrowEvent.Pre natively;
+// re-fire it from randomTick so the seasons handler can veto growth.
 @Mixin(BlockPamFruit.class)
 public class MixinBlockPamFruit {
 

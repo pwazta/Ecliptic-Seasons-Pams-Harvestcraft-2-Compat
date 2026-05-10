@@ -9,7 +9,7 @@ public final class Config {
     static {
         ForgeConfigSpec.Builder builder = new ForgeConfigSpec.Builder();
         FRUIT_MIXIN_ENABLED = builder
-                .comment("If true, Pam's fruit blocks (BlockPamFruit, BlockPamLogFruit) have their random-tick growth gated by season via Ecliptic Seasons. If false, fruit blocks grow year-round (saplings and crops are unaffected by this toggle — they are season-locked through Forge's vanilla CropGrowEvent / SaplingGrowTreeEvent flow which Ecliptic Seasons already listens to). Toggle takes effect immediately, no game restart required.")
+                .comment("Gate Pam's fruit-block growth by season. When off, fruit blocks grow year-round; crops and saplings are unaffected.")
                 .define("fruitMixinEnabled", true);
         SPEC = builder.build();
     }

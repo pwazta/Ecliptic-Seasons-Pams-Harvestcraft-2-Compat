@@ -11,7 +11,7 @@ modId="${mod_id}"
 version="${mod_version}"
 displayName="${mod_name}"
 authors="${mod_authors}"
-description='''${mod_description}'''
+description='''Pam's Harvestcraft 2 crops, saplings, and fruit blocks respect Ecliptic Seasons.'''
 
 [[dependencies.${mod_id}]]
     modId="forge"
@@ -34,8 +34,6 @@ description='''${mod_description}'''
     ordering="AFTER"
     side="BOTH"
 
-# Optional — tag JSONs reference Pam's block IDs that simply don't resolve when this mod isn't present.
-# No errors, no warnings. The crop side becomes a no-op automatically.
 [[dependencies.${mod_id}]]
     modId="pamhc2crops"
     mandatory=false
@@ -43,8 +41,6 @@ description='''${mod_description}'''
     ordering="AFTER"
     side="BOTH"
 
-# Optional — when absent, the mixin targets BlockPamFruit/BlockPamLogFruit don't exist.
-# The mixin config has "required": false so this soft-fails with a single log line.
 [[dependencies.${mod_id}]]
     modId="pamhc2trees"
     mandatory=false

@@ -83,23 +83,10 @@ repositories {
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
-    // Ecliptic Seasons — mandatory at runtime; needed at compile time for the @Mod dep entry to resolve.
-    // CurseForge: https://www.curseforge.com/minecraft/mc-mods/ecliptic-seasons (project 1118306)
-    // Pinned to EclipticSeasons-1.20.1-forge-0.13.0-rc-4-all.jar (file 8052041) — matches the modpack.
     implementation fg.deobf("curse.maven:ecliptic-seasons-1118306:8052041")
-
-    // Pam's Harvestcraft 2: Crops — optional dependency. Tag JSONs only; no Java reference.
-    // CurseForge: https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-crops (project 361385)
-    // Pinned to pamhc2crops-1.20-1.0.3.jar (file 4687624) — matches the modpack.
     implementation fg.deobf("curse.maven:pams-harvestcraft-2-crops-361385:4687624")
-
-    // Pam's Harvestcraft 2: Trees — optional dependency. Required at compile time for the
-    // BlockPamFruit / BlockPamLogFruit mixin targets (Phase 2). Tag JSONs only for Phase 1.
-    // CurseForge: https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-trees (project 365460)
-    // Pinned to pamhc2trees-1.20-1.0.2.jar (file 4625518) — matches the modpack.
     implementation fg.deobf("curse.maven:pams-harvestcraft-2-trees-365460:4625518")
 
-    // Mixin annotation processor
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 }
 
