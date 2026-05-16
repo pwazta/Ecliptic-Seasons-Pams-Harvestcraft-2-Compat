@@ -32,6 +32,10 @@ All of Pam's HC2 crops, saplings, and fruit blocks are:
 
 **Issues / suggestions:** report them on the [GitHub issue tracker](https://github.com/pwazta/Ecliptic-Seasons-Pams-Harvestcraft-2-Compat/issues) please.
 
+Or hop in the Discord if you just want to chat about the mod, ask a question, or hang out:
+
+[![Discord](https://img.shields.io/badge/Discord-Join%20the%20server-5865F2?logo=discord&logoColor=white&style=flat-square)](https://discord.gg/qrBcucsTtY)
+
 ---
 
 ## Credits & License
